@@ -4,11 +4,12 @@ import LoginPage from './pages/LoginPage/LoginPage';
 import DashboardPage from './pages/DashboardPage/DashboardPage';
 import './App.scss';
 
-/**
- * App Component
- * Defines routes for the application.
- */
+
 class App extends React.Component {
+  /**
+   * Renders the main application component with routes.
+   * @returns A div element with class "app" containing the rendered routes.
+   */
   render() {
     return (
       <Router>

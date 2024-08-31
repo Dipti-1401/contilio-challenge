@@ -39,6 +39,12 @@ class BarChart extends React.Component<BarChartProps> {
     }
   }
 
+  /**
+   * Renders a simple bar chart based on provided attributes.
+   * @returns A div element with class "bar-chart" containing a
+   * collection of div elements with class "bar-container" each
+   * containing a span for the label and a div for the bar.
+   */
   render() {
     const { attributes } = this.props;
 

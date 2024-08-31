@@ -14,6 +14,12 @@ class DashboardPage extends React.Component {
     console.log('DashboardPage mounted');
   }
 
+  /**
+   * Renders the DashboardPage component based on the state.
+   * If the component is still loading, renders a "Loading..." message.
+   * Otherwise, renders a Dashboard component.
+   * @returns A div element with class "dashboard-page" containing the rendered content.
+   */
   render() {
     return (
       <div className="dashboard-page">

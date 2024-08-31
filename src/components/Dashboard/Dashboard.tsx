@@ -80,6 +80,13 @@ class Dashboard extends React.Component<{}, DashboardState> {
     this.setState({ currentItemIndex: index });
   };
 
+  /**
+   * Renders the Dashboard component based on the state.
+   * If the component is still loading, renders a "Loading..." message.
+   * Otherwise, renders a table with the current item's attributes and
+   * a bar chart with the values. Also renders a range input to switch between items.
+   * @returns A div element with class "dashboard" containing the rendered content.
+   */
   render() {
     const { items, currentItemIndex, isLoading } = this.state;
     const currentItem = items[currentItemIndex] || {};
