@@ -1,5 +1,3 @@
----
-
 # Contilio Code Challenge
 
 This is a React-based dashboard application built for the Contilio Code Challenge. The project demonstrates proficiency in TypeScript, SCSS, React class components, and modern ES6+ JavaScript features.
@@ -67,5 +65,3 @@ src/
 - **Styling**: All component-specific styles are written in SCSS and imported into respective components.
 - **Global Styles**: Common styles and variables are stored in the `styles/` directory and imported where needed.
 - **Responsive Design**: The layout adapts to various screen sizes, ensuring a consistent user experience across devices.
-
----
