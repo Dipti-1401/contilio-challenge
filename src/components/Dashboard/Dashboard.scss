@@ -1,0 +1,57 @@
+.dashboard {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  
+    h1 {
+      font-family: 'Montserrat', sans-serif;
+      margin-bottom: 20px;
+      color: #333;
+    }
+  
+    .content {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+  
+      table {
+        width: 48%;
+        border-collapse: collapse;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  
+        th, td {
+          padding: 12px;
+          border: 1px solid #ddd;
+        }
+  
+        th {
+          background-color: #f2f2f2;
+        }
+  
+        td {
+          background-color: #fff;
+        }
+      }
+    }
+  
+    input[type='range'] {
+      width: 100%;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+  
+    /* Responsive Design */
+    @media (max-width: 500px) {
+      .content {
+        flex-direction: column;
+        align-items: center;
+  
+        table, .bar-chart {
+          width: 100%;
+        }
+      }
+    }
+  }
+  
